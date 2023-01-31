@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'lifecycle';
+  updateData(){
+    this.title = "lifecycle of components";
+  }
 }
